@@ -1,0 +1,16 @@
+{
+    "cartCouponValueValidation": {
+        "error": {
+            "cartValueTooLow": "Der Warenwert (%cartTotal%€) ist geringer als der Gutscheinwert (%couponValue%€). Der Gutschein wurde entfernt."
+        },
+        "debug": {
+            "cartValue": "Debug: Aktueller Warenwert (Produkte): %cartTotal%€",
+            "couponValue": "Debug: Gutscheinwert (absolut): %couponValue%€"
+        }
+    },
+    "config": {
+        "JulesCartCouponValueValidation": {
+            "debugMode": "Debug-Modus aktivieren"
+        }
+    }
+}
