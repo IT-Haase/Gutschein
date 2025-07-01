@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>Jules Cart Coupon Value Validation Settings</title>
+        <title lang="de-DE">Jules Warenkorb Gutscheinwert Validierung Einstellungen</title>
+
+        <input-field type="bool">
+            <name>debugMode</name>
+            <label>Enable Debug Mode</label>
+            <label lang="de-DE">Debug-Modus aktivieren</label>
+            <helpText>If enabled, outputs debug information as info messages in the cart.</helpText>
+            <helpText lang="de-DE">Wenn aktiviert, werden Debug-Informationen als Info-Meldungen im Warenkorb ausgegeben.</helpText>
+        </input-field>
+    </card>
+</config>

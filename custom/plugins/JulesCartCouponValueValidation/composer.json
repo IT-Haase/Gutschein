@@ -1,0 +1,28 @@
+{
+    "name": "jules/cart-coupon-value-validation",
+    "description": "Validates if cart value is sufficient for applied coupon.",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jules",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jules\\CartCouponValueValidation\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Jules\\CartCouponValueValidation\\JulesCartCouponValueValidation",
+        "label": {
+            "de-DE": "Warenkorb Gutscheinwert Validierung",
+            "en-GB": "Cart Coupon Value Validation"
+        },
+        "description": {
+            "de-DE": "Überprüft, ob der Warenwert für den angewendeten Gutschein ausreicht.",
+            "en-GB": "Checks if the cart value is sufficient for the applied coupon."
+        }
+    }
+}
